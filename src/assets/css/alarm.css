@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.alarm {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: hidden;
+}
+form{
+  text-align: center;
+  margin: 7% 40% 3%;
+  display: flex;
+
+}
+input{
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #565555;
+  border-radius: 3px;
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+}
+button{
+  background-color: #4141ff;
+  color: #FFF;
+  border: none;
+  width: 35px;
+  border-radius: 3px;
+  font-size: 22px;
+  margin-right: 4%;
+}

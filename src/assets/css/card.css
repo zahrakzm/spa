@@ -1,0 +1,56 @@
+
+.sign {
+  background-color: red;
+  width: 7%;
+  height: 18%;
+  float: right;
+  border-radius: 50%;
+  margin-top: -2%;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 100%;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 2% 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 8px 16px;
+  height: 88px;
+  line-height: 1.5;
+  background-color: #565555;
+  color: #fff;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.nowrap-cms {
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
